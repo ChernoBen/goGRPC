@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+//definir o nome do pacote
+package greet;
+
+//especificar go package em option
+option go_package="./greet/greetpb";
+
+//servico contendo os endpoints
+service GreetService{}
